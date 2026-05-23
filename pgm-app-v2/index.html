@@ -93,12 +93,25 @@ a{
 
 .hero-banner{
   margin:20px;
-  background:linear-gradient(135deg,#166534,#16a34a);
   border-radius:28px;
-  padding:28px;
+  padding:40px;
   color:white;
   position:relative;
   overflow:hidden;
+
+  background:
+  linear-gradient(
+    rgba(22,101,52,0.88),
+    rgba(21,128,61,0.88)
+  ),
+  url('banner-pgm.png');
+
+  background-size:cover;
+  background-position:center;
+  min-height:420px;
+
+  display:flex;
+  align-items:center;
 }
 
 .hero-banner::before{
@@ -128,17 +141,7 @@ a{
   font-size:14px;
 }
 
-.hero-image{
-  text-align:center;
-  margin-top:20px;
-}
 
-.hero-image img{
-  width:520px;
-  max-width:100%;
-  border-radius:20px;
-  box-shadow:0 10px 25px rgba(0,0,0,0.2);
-}
 
 /* =========================
    STATISTIK
@@ -380,13 +383,7 @@ a{
 
   </div>
 
-  <div class="hero-image">
-
-```
-<img src="banner-pgm.png">
-```
-
-  </div>
+  
 
 </div>
 
